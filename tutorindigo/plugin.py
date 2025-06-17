@@ -122,7 +122,7 @@ for mfe in indigo_styled_mfes:
                 """
 RUN npm install @edly-io/indigo-frontend-component-footer@^2.0.0
 RUN npm install '@edx/frontend-component-header@npm:@edly-io/indigo-frontend-component-header@^3.2.2'
-RUN npm install '@edx/brand@npm:@edly-io/indigo-brand-openedx@^2.2.2'
+RUN npm install '@edx/brand@git+https://github.com/lionelsemion/brand-openedx.git#master'
 
 """,
             ),
